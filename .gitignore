@@ -1,0 +1,8 @@
+
+*.o
+*.o
+*.d
+firmware/rs-eviot.X/dist/default/production/memoryfile.xml
+*.elf
+*.hex
+*.map
