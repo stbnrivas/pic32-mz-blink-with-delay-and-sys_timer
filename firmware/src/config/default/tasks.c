@@ -88,33 +88,7 @@ void _APP_Tasks(  void *pvParameters  )
 */
 void SYS_Tasks ( void )
 {
-    /* Maintain system services */
-    
 
-    /* Maintain Device Drivers */
-    
-
-    /* Maintain Middleware & Other Libraries */
-    
-
-    /* Maintain the application's state machine. */
-        /* Create OS Thread for APP_Tasks. */
-    xTaskCreate((TaskFunction_t) _APP_Tasks,
-                "APP_Tasks",
-                1024,
-                NULL,
-                1,
-                &xAPP_Tasks);
-
-
-
-
-    /* Start RTOS Scheduler. */
-    
-     /**********************************************************************
-     * Create all Threads for APP Tasks before starting FreeRTOS Scheduler *
-     ***********************************************************************/
-    vTaskStartScheduler(); /* This function never returns. */
 
 }
 
