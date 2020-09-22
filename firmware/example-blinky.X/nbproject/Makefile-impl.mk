@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=rs-eviot.X
+PROJECTNAME=example-blinky.X
 
 # Active Configuration
 DEFAULTCONF=default

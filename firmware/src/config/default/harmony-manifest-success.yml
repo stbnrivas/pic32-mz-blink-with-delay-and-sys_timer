@@ -4,12 +4,12 @@
 
 
 project: src-firmware-updated
-creation_date: 2020-09-22T09:24:06.027+02:00[Europe/Paris]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2020-09-22T10:53:06.157+02:00[Europe/Paris]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
 mhc_mode: IDE            # [IDE|Standalone|Headless]
 mplabx_version: v5.40        # if MPLAB X plugin only
 plugin_version: v3.6.0        # if MPLAB X plugin only
-compiler: XC32 (2.00)
+compiler: XC32 (2.41)
 
 modules:
     - {name: "csp", version: "v3.7.1"}
